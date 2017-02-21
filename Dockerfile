@@ -12,4 +12,4 @@ RUN mkdir /ftp
 EXPOSE 21
 EXPOSE 20
 
-ENTRYPOINT /start
+ENTRYPOINT /launch
