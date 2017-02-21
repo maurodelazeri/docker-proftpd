@@ -6,7 +6,7 @@ Dockerfile and to create a simple proftpd image.
 
 ~~~
 docker pull theoraculo/docker-proftpd
-docker run -it -p 21:21 -p 20:20 -e USERNAME=user -e PASSWORD=pass -v `pwd`/ftp:/ftp theoraculo/docker-proftpd
+docker run -p 21:21 -p 20:20 -e USERNAME=user -e PASSWORD=pass -v `pwd`/ftp:/ftp -it -d theoraculo/docker-proftpd
 ~~~
 
 Note: if you use boot2docker on Mac OSX, be sure to connect to the VM when testing like,
