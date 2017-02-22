@@ -1,6 +1,6 @@
 # Docker/Proftpd
 
-Dockerfile and to create a simple proftpd image.
+Dockerfile to create a simple proftpd server.
 
 ## Instant Usage
 
